@@ -3,3 +3,7 @@
 
 # Jupyter
 .ipynb_checkpoints
+
+# project files
+*.zip
+*.pickle
