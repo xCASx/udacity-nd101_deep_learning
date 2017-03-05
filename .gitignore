@@ -7,3 +7,8 @@
 # project files
 *.zip
 *.pickle
+*.tar.gz
+*.index
+*.meta
+*.p
+__pycache__/
