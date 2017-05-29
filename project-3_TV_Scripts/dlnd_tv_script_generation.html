@@ -12853,7 +12853,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12892,7 +12892,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tensors</span><span class="p">(</span><span class="n">loaded_graph</span><span class="p">):</span>
@@ -12948,7 +12948,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pick_word</span><span class="p">(</span><span class="n">probabilities</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">):</span>
@@ -12959,7 +12959,7 @@ Model Trained and Saved
 <span class="sd">    :return: String of the predicted word</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
-    <span class="k">return</span> <span class="n">int_to_vocab</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">probabilities</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="n">int_to_vocab</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">int_to_vocab</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="n">p</span><span class="o">=</span><span class="n">probabilities</span><span class="p">)]</span>
 
 
 <span class="sd">&quot;&quot;&quot;</span>
@@ -13001,7 +13001,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gen_length</span> <span class="o">=</span> <span class="mi">200</span>
@@ -13062,19 +13062,21 @@ Model Trained and Saved
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>moe_szyslak:(singing, points) yeah well the sign still night, too not an operation, which we need a eyeball beer.
-moe_szyslak:(shakes) that&#39;s an ad on the every word... moe, look, i have a right, but i am.
-moe_szyslak:(to homer) hey, i don&#39;t need cash i&#39;m gonna a little bit, homer?
-homer_simpson:(to nobel prize) isn&#39;t that like, sir.
-marge_simpson:(sings) mock.
-homer_simpson:(exasperated sigh) ooh, wait, wait, wait, wait, i want in!
-moe_szyslak:(dreamy) okay, i wish i shot you and he is.
-marge_simpson:(chuckles) oh, what the hell is it?
-homer_simpson: i hope! i got something like this.
-homer_simpson: hey, um, what are you doing in world, homer?
-homer_simpson:(to nobel prize) isn&#39;t that like, sir.
-marge_simpson:(sings) mock.
-homer_simpson:(exasperated sigh) ooh, wait, wait, wait
+<pre>moe_szyslak: edelbrock intakes...
+homer_simpson: nothin&#39; but...(really drawing it out) so uh, now i&#39;m gonna be a nigerian prince six every tonight...
+moe_szyslak:(excited) oh, the heat&#39;s go back to turn back to you.
+homer_simpson: ned, when i let what needed to find out of the money!
+moe_szyslak:(tough) homer, the stuff is empty for the house.
+homer_simpson:(noticing band) hey, there. people has away your fifty surgery up in the air, moe.
+moe_szyslak: um, right...
+homer_simpson: because when vance is it, you had a swill to &#39;cause a place down. good one, a little lips...
+carl_carlson: the beer, moe.
+moe_szyslak: you sing too choice.
+moe_szyslak: that&#39;s true.
+homer_simpson: hey moe, you wanna smell my flower was ninety-nine.
+homer_simpson: i need this name.
+carl_carlson: gee, why i need that right out that character?
+barney_gumble:(drunkenly) you&#39;re no.
 </pre>
 </div>
 </div>
